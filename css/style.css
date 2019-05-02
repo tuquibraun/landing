@@ -155,6 +155,17 @@ ul{
     z-index: 9;
     background: #f7f7f8;
 }
+.ingresar{
+    overflow: hidden;
+    padding: 12px 42px;
+    border-radius: 5px;
+    border: 1px solid #363636;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.ingresar:hover {color: #f7f7f8; background: #d78f35; border: 1px solid #f7f7f8;}
+
 .default-btn:hover {color: #f7f7f8; background: #333333}
 .banner-btn {
   background: #ffffff none repeat scroll 0 0;
@@ -761,6 +772,9 @@ textarea {
     background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
     box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
     transition: all 0.6s ease 0s;
+}
+.header-area .header-sticky container{
+    width: 100%;
 }
 .menu-style-toggle nav {
     margin-right: -30px;
